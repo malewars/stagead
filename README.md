@@ -3,5 +3,6 @@
 * After cloning or grabbing the tree as a zip, be sure to run this command to allow the powershells to run locally in your Windows host
 
 ```powershell
-ls -l
+ls stagead -recurse | unblock-file
+
 ````
